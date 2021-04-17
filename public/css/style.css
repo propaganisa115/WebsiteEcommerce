@@ -104,7 +104,8 @@ body {
 
 .content {
     min-height: 100vh;
-    background-image: url("../storage/images/2-1.jpeg");
+
+    background-image:url("https://i.ibb.co/vq1GJ71/2-1.jpg");
     background-size: cover;
     display: flex;
     flex-direction: column;
