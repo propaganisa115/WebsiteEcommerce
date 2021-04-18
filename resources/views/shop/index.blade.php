@@ -37,7 +37,7 @@
             @foreach($products as $product)
               <div class="col-lg-4 item mt-3">
                 <a href="/shop/detail/{{$product->id}}">
-                <img src="{{asset($product->image)}}" alt="nopic" height="180" width="180">
+                <img src="https://i.postimg.cc/bYGn5MFR/product.png" alt="nopic" height="180" width="180">
                 </a>
                 <p class="product-name mt-3 font-weight-bold"><a href="">{{$product->name}}</a></p>
                 <p class="product-price">Rp{{number_format($product->price)}}</p>

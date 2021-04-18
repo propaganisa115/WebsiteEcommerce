@@ -37,7 +37,7 @@
 <div class="cart">
         <div class="row">
             <div class="col-lg-3">
-            <img class="img-cart" src="{{asset('storage/images/product.jpg')}}" alt="">
+            <img class="img-cart" src="https://i.postimg.cc/bYGn5MFR/product.png" alt="">
             </div>
             <div class="col-lg-9">
                 <div class="top">

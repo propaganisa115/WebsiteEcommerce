@@ -77,7 +77,7 @@
 				@foreach ($products as $product)
             <div class="col-lg-4 col-md-6">
 							<a href="">
-							<img src="{{$product->image}}" alt="nopic" height="150" width="150">
+							<img src="https://i.postimg.cc/bYGn5MFR/product.png" alt="nopic" height="150" width="150">
 							</a>
 							<p class="product-name"><a href="#">{{$product->name}}</a></p>
 							<p class="product-price">Rp.{{number_format($product->price)}}</p>
