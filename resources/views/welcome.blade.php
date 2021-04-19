@@ -14,7 +14,7 @@
 <body>
     @guest
 	<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-		<a class="navbar-brand" href="#">My E-Commerce</a>
+		<a class="navbar-brand" href="#">E-CommerceKece</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -24,10 +24,10 @@
 					<a class="nav-link underline" href="">Home <span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link underline" href="">About Us</a>
+					<a class="nav-link underline" href="/about-us">About Us</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link underline" href="">Our Product</a>
+					<a class="nav-link underline" href="/shop">Shop</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link button" href="/login">Sign In</a>
@@ -37,7 +37,7 @@
     </nav>
     @else
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">My E-Commerce</a>
+            <a class="navbar-brand" href="#">E-Commerce Kece</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -67,8 +67,8 @@
         </nav>
         @endguest
 	<div class="content">
-		<h1 class="title">E - Commerce</h1>
-		<h3>The Best Place for Any Solutions</h3>
+		<h1 class="title">E - Commerce Kece</h1>
+		<h3>Amazing Online Fashion Store</h3>
 	</div>
 	<div class="container">
 		<div class="products">
@@ -85,7 +85,7 @@
 				@endforeach
 			</div>
 		</div>
-		<a href="" class="more">View More Products ></a>
+		<a href="/shop" class="more">View More Products ></a>
 	</div>
 
 	<footer class="footer-distributed">
@@ -97,12 +97,12 @@
 		</div>
 		<div class="footer-left">
 			<p class="footer-links">
-				<a class="link-1" href="#">HOME</a>
-				<a href="#">SHOP</a>
-				<a href="#">ABOUT</a>
+				<a class="link-1" href="/">HOME</a>
+				<a href="/shop">SHOP</a>
+				<a href="/about-us">ABOUT</a>
 				<a href="#">FAQ</a>
 			</p>
-			<p>CodingStudio &copy; 2018</p>
+			<p>IisAnisa &copy; 2018</p>
 		</div>
 
     </footer>

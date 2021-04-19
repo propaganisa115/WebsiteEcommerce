@@ -14,7 +14,7 @@
 
 <div class="row justify-content-center">
   <div class="col-md-4">
-      <img class="img-profile" src="{{asset('storage/images/profile.jpeg')}}" alt="no-image">
+      <img class="img-profile" src="https://i.ibb.co/NtyrrMq/profile.png" alt="no-image">
   </div>
   <div class="offset-md-2 col-md-6">
       <div class="content">
